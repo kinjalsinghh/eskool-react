@@ -1,0 +1,72 @@
+.section12{
+    display: flex;
+    gap:300px;
+    height:600px;
+}
+.section12-tag{
+    display:flex;
+    height:50px;
+    align-items: center;
+    gap:8px;
+    color:rgba(141, 141, 141, 1);
+    font-size: 16px;
+    padding-top:30px;
+    padding-right:10px;
+ }
+ .section12-tag-square{
+     width:12px;
+     height:12px;
+     transform: rotate(-45deg);
+     background: rgba(141, 141, 141, 1);
+ }
+ .section12-left{
+    padding-left:10%;
+ }
+ .section12-right{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+ }
+ .section12 hr{
+    width:100%;
+    border:1.5px solid;
+ }
+ .section12-right-content{
+    display: flex;
+    gap:30px;
+    text-align: left;
+    line-height: 30px;
+ }
+ .section12-number{
+    font-size: 45px;
+    font-weight: 700;
+    color:rgba(254, 104, 57, 1);
+ }
+ .section12-date{
+    font-size:18px;
+    padding-top:30px;
+    padding-right:50px;
+ }
+ .section12-heading {
+    font-size: 36px;
+    font-weight: 500;
+ }
+ .section12-subheading{
+    font-size: 16px;
+    font-weight: 400;
+    
+ }
+ .section12 button{
+        height:60px;
+        width:170px;
+        border-radius: 50px;
+        background: transparent;
+        border:1px solid rgba(40, 40, 40, 1);
+        font-size: 17px;
+        padding:20px 19px 20px 25px;
+        color:rgba(40, 40, 40, 1);
+        margin-top:30px;
+        
+ }
+ 
+ 

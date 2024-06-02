@@ -1,0 +1,104 @@
+.section13{
+    display: flex;
+    flex-direction: column;
+    height:1500px;
+    background:rgba(233, 233, 233, 1)
+}
+.section13-top{
+    display:flex;
+    height:300px;
+    gap:400px;
+}
+.section13-tag{
+    display:flex;
+    height:50px;
+    align-items: center;
+    gap:8px;
+    color:rgba(141, 141, 141, 1);
+    font-size: 16px;
+    padding-top:50px;
+    padding-right:10px;
+    padding-left:50px;
+ }
+ .section13-tag-square{
+     width:12px;
+     height:12px;
+     transform: rotate(-45deg);
+     background: rgba(141, 141, 141, 1);
+ }
+ .section13-subscription{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ }
+ .section13-subs-text{
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .subscribe{
+    display:flex;
+    gap:350px;
+ }
+ .subscribe input{
+    border-width: 0px;
+    border: none;
+    outline:none;
+    background: transparent;
+ }
+ .section13-subscription hr{
+    width:100%;
+    border: 1.5px solid;
+    margin-left: -10px;
+ }
+ .section13-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+ }
+ .section13-bottom-content-top{
+    display: flex;
+ }
+ .section13-bottom-content-bottom{
+    display: flex;
+ }
+ .section13-base{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    background: rgba(254, 104, 57, 1);
+    margin-top:100px;
+}
+.section13-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height:90%;
+   width:80%;
+   text-align: left;
+   gap:200px;
+}
+.section13-content-text{
+    color:rgba(249, 249, 249, 1);
+    font-size: 30px;
+    width:60%;
+    padding-right:80px;
+}
+.base-hr{
+    width:15%;
+}
+.section13 button{
+    height:60px;
+    width:230px;
+    gap:20px;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 15px;
+    padding:20px 19px 20px 25px;
+    border:1px solid rgba(249, 249, 249, 1);
+    color: rgba(249, 249, 249, 1);
+}
+.section13-arr-img{
+    padding-left:10px;
+}

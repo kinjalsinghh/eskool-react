@@ -1,0 +1,53 @@
+.section9{
+    
+    height:700px;
+    display: flex;
+    margin-bottom:0px;
+   
+}
+.section9-vectors{
+    position:absolute;
+    z-index:-1;
+}
+.vector1{
+    margin-left: -200px;
+}
+.vector2{
+    transform: rotate(-5.72deg);
+    padding-left:70px;
+    margin-bottom:-110px;
+}
+.section9-contents{
+    display:flex;
+    gap:100px;
+}
+.section9-contents-left{
+   display: flex;
+}
+.main-img{
+    height:60%;
+    z-index:0;
+    margin-top:30%;
+    margin-left: 40%;
+}
+.section9-contents-right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top:150px;
+    margin-left:200px;
+}
+.comma{
+    display: flex;
+    gap:15px;
+}
+.comma img{
+    height:60%;
+    z-index:-1;
+}
+.section9-contents-right p{
+  font-size: 28px;
+  margin-top:-160px;
+  margin-left:20px;
+  
+}

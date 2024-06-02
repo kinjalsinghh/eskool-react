@@ -1,0 +1,45 @@
+.section8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:700px;
+    background: rgba(234, 234, 234, 1);
+    margin-top:-30%;   
+}
+.section8-contents{
+   margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+    height:50%;
+    margin-bottom:-350px;
+    text-align: left;
+
+}
+.benefits{
+    display: flex;
+    gap:200px;
+}
+.benefit{
+    display: flex;
+    width:100%;
+    gap:20px;
+
+}
+.main-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.number{
+    font-size: 40px;
+    font-weight: 700;
+    color:rgba(254, 104, 57, 1);
+}
+.subheading-benefit{
+    font-size: 25px;
+    font-weight: 500;
+    color:black;
+}
+.benefit hr{
+    width:1.2px;
+    background: black;
+}

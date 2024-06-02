@@ -1,0 +1,39 @@
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    background: rgba(254, 104, 57, 1);
+}
+.section4-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height:90%;
+   width:80%;
+   text-align: left;
+   gap:200px;
+}
+.section4-content-text{
+    color:rgba(249, 249, 249, 1);
+    font-size: 30px;
+    width:60%;
+    padding-right:80px;
+}
+.section4 hr{
+    width:15%;
+}
+.section4 button{
+    height:60px;
+    width:230px;
+    gap:20px;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 15px;
+    padding:20px 19px 20px 25px;
+    border:1px solid rgba(249, 249, 249, 1);
+    color: rgba(249, 249, 249, 1);
+}
+.arr-img{
+    padding-left:10px;
+}

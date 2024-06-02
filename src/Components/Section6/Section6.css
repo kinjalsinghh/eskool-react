@@ -1,0 +1,116 @@
+.section6{
+    height:1300px;
+}
+
+.section6-top{
+    display:flex;
+    height:500px;
+    background: rgba(233, 233, 233, 1);
+    
+ }
+ .section6-top-items{
+    display:flex;
+ }
+ .section6-top-tag{
+    display:flex;
+    height:50px;
+    align-items: center;
+    gap:8px;
+    color:rgba(141, 141, 141, 1);
+    font-size: 16px;
+    margin-top:50px;
+    margin-left:50px;
+    width:170px;
+ }
+ .section6-top-tag-square{
+     width:12px;
+     height:12px;
+     transform: rotate(-45deg);
+     background: rgba(141, 141, 141, 1);
+ }
+ 
+ .section6-top-content{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    margin-left:300px;
+ }
+ .section6-top-content-heading{
+    font-size: 35px;
+    font-weight: 600;
+    width:600px;
+ }
+ .section6-top-content-subheading{
+    font-size: 18px;
+    margin-top:-10px;
+ }
+ .section6 button{
+    height:60px;
+    width:170px;
+    gap:20px;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 15px;
+    padding:18px 17px 18px 23px;
+    border:1px solid rgba(40, 40, 40, 1);
+    color:  rgba(40, 40, 40, 1);
+    margin-top: 20px;
+}
+.section6-bottom-top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.section6-bottom-top-text hr{
+    width:100%;
+    height:2px;
+    background: black;
+
+}
+.section6-bottom-top-text-content{
+    display: flex;
+}
+.section6-bottom-top-image{
+    height:400px;
+    width:800px;
+}
+.section6-square-or{
+    width:12px;
+    height:12px;
+    transform: rotate(-45deg);
+    background: rgba(254, 104, 57, 1);
+    margin-top:20px;
+}
+.section6-bottom-top-text-content{
+    gap:20px;
+    text-align: left;
+    font-size: 17px;
+}
+.section6-bottom-top img{
+   margin-top:-150px;
+}
+.section6-bottom-bottom-content{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:50%;
+    width:50%;
+    gap:40px;
+    margin-left:600px;
+    margin-top:70px;
+}
+.section6-bottom-bottom-content-items{
+    display:flex;
+    gap:20px;
+    text-align: left;
+}
+.section6-bottom-bottom-content-items img{
+    width:80px;
+    height:75px;
+    margin-top:10px;
+}
+.section6-bottom-bottom-content-text-heading{
+    font-size: 25px;
+    font-weight: 600;
+}

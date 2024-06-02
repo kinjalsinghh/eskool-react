@@ -1,0 +1,70 @@
+.navbar{
+    height:120px;
+    display:flex;
+    padding: 16px;
+    box-shadow:0 1px 3px -2px black;
+    align-items:center;
+    background:rgba(40, 40, 40, 1);
+    justify-content: space-around;
+    
+}
+.navbar-logo{
+    display:flex;
+    align-items: center;
+    gap:10px;
+   
+}
+.nav-tag{
+    display:flex;
+    height:50px;
+    align-items: center;
+    gap:8px;
+    color:rgba(249, 249, 249, 1);
+    font-size: 20px;
+ }
+ .nav-square{
+     width:12px;
+     height:12px;
+     transform: rotate(-45deg);
+     background: rgba(254, 104, 57, 1);;
+ }
+
+.navbar-logo p{
+    color: rgba(249, 249, 249, 1);
+    font-size: 41px;
+    font-weight: 500;
+}
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin-right:30px;
+}
+.navbar-menu ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    color: rgba(249, 249, 249, 1);
+    font-size: 20px;
+}
+.navbar-menu li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;
+    justify-content: center;
+}
+.navbar-menu button{
+    outline:none;
+    height: 70px;
+    width: 190px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid rgba(254, 104, 57, 1);
+    padding:20px 30px 20px 30px;
+    color: rgba(249, 249, 249, 1);
+    cursor: pointer;
+}
+
+
